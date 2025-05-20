@@ -1,0 +1,14 @@
+# .gitignore
+
+# Ignore data folder
+/data/
+
+# Ignore cache & temp files
+__pycache__
+*.pyc
+*.log
+*.env
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
