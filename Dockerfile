@@ -12,7 +12,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY streamlit_app.py .
 
 # Optional: Embed data into Docker image (secure but less flexible)
-COPY data/data.xlsx ./data.xlsx
+# COPY data/data.xlsx ./data.xlsx
+COPY data/iom_logo.svg /app/data/iom_logo.svg
 
 # Expose port
 EXPOSE 8501
